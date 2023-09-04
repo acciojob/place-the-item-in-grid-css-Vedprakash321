@@ -1,2 +1,20 @@
 
 /* Your CSS Code here. */
+/* Apply styles to the grid container */
+.holder {
+    display: grid;
+/*     grid-template-columns: repeat(2, 1fr);  Create two equal columns */ 
+/*     grid-template-rows: repeat(2, 1fr); /* Create two equal rows */
+    grid-gap: 5px; /* Add some gap between grid items */
+    width: 200px; /* Set the total width to 200px */
+    height: 200px; /* Set the total height to 200px */
+}
+
+/* Apply styles to the grid items (individual cells) */
+.item {
+    background-color: #3498db; /* Example background color */
+    color: #fff; /* Example text color */
+    padding: 10px; /* Example padding */
+    text-align: center; /* Center the text */
+	justify-content:center;
+}
